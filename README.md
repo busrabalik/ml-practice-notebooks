@@ -6,7 +6,7 @@ My goal is to leave a "recipe book" that I can use in the future and also help p
 # Water Potability Prediction
 
 This project uses machine learning to check if water is safe to drink (**potable**) or not.  
-The data comes from the `water_potability.csv` file, which has chemical and physical properties of water samples.
+The data comes from the `water_potability.csv` [https://www.kaggle.com/datasets/adityakadiwal/water-potability] file, which has chemical and physical properties of water samples.
 **Main Steps:**
 1. Look at the data (pie chart, correlation heatmap, missing values)
 2. Fix missing values (fill with average values for each class)
@@ -19,7 +19,7 @@ The data comes from the `water_potability.csv` file, which has chemical and phys
 # Heart Attack Prediction
 
 This project uses machine learning to predict the risk of a heart attack.  
-The data comes from the `heart.csv` file, which contains medical and lifestyle information about patients.
+The data comes from the `heart.csv` [https://www.kaggle.com/datasets/sonialikhan/heart-attack-analysis-and-prediction-dataset] file, which contains medical and lifestyle information about patients.
 **Main Steps:**
 1. Look at the data (bar charts, heatmap, pair plots)
 2. Check and handle missing values
