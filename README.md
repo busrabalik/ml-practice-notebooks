@@ -34,7 +34,7 @@ The data comes from the `heart.csv` [https://www.kaggle.com/datasets/sonialikhan
 # Handwritten Digit Recognition Project
 This project uses machine learning to recognize handwritten digits. The dataset consists of 1797 samples of 8x8 pixel images, each represented by 64 features, sourced from the sklearn library. 
 
-**Main steps**
+**Main steps:**
 1. Dimensionality reduction (using PCA)
 2. Model training and hyperparameter tuning (finding best parameters for SVM, Random Forest, and KNN using GridSearchCV)
 3. Combining the best models using voting (applying hard voting with a Voting Classifier)
