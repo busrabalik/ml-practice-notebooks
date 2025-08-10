@@ -28,3 +28,12 @@ The data comes from the `heart.csv` [https://www.kaggle.com/datasets/sonialikhan
 5. Compare models (accuracy score, confusion matrix, classification report)
 6. Tune the best model (Random Forest with RandomizedSearchCV)
 
+
+# Handwritten Digit Recognition Project
+This project uses machine learning to recognize handwritten digits. The dataset consists of 1797 samples of 8x8 pixel images, each represented by 64 features, sourced from the sklearn library. 
+**Main steps**
+1. Dimensionality reduction (using PCA)
+2. Model training and hyperparameter tuning (finding best parameters for SVM, Random Forest, and KNN using GridSearchCV)
+3. Combining the best models using voting (applying hard voting with a Voting Classifier)
+4. Evaluating model performance (measuring accuracy and plotting confusion matrix on test data)
+
