@@ -7,6 +7,7 @@ My goal is to leave a "recipe book" that I can use in the future and also help p
 
 This project uses machine learning to check if water is safe to drink (**potable**) or not.  
 The data comes from the `water_potability.csv` [https://www.kaggle.com/datasets/adityakadiwal/water-potability] file, which has chemical and physical properties of water samples.
+
 **Main Steps:**
 1. Look at the data (pie chart, correlation heatmap, missing values)
 2. Fix missing values (fill with average values for each class)
@@ -20,6 +21,7 @@ The data comes from the `water_potability.csv` [https://www.kaggle.com/datasets/
 
 This project uses machine learning to predict the risk of a heart attack.  
 The data comes from the `heart.csv` [https://www.kaggle.com/datasets/sonialikhan/heart-attack-analysis-and-prediction-dataset] file, which contains medical and lifestyle information about patients.
+
 **Main Steps:**
 1. Look at the data (bar charts, heatmap, pair plots)
 2. Check and handle missing values
@@ -31,6 +33,7 @@ The data comes from the `heart.csv` [https://www.kaggle.com/datasets/sonialikhan
 
 # Handwritten Digit Recognition Project
 This project uses machine learning to recognize handwritten digits. The dataset consists of 1797 samples of 8x8 pixel images, each represented by 64 features, sourced from the sklearn library. 
+
 **Main steps**
 1. Dimensionality reduction (using PCA)
 2. Model training and hyperparameter tuning (finding best parameters for SVM, Random Forest, and KNN using GridSearchCV)
